@@ -12,6 +12,13 @@ public class Main {
 
 	    System.out.println("BMI値は"+(Math.floor(bmi*100)/100)+"です");
 
+	    System.out.print("身長(m)を入力して下さい:");
+            double height2 = stdln.nextDouble();
+            System.out.print("体重(Kg)を入力して下さい");
+            double weight2 = stdln.nextDouble();
+            double bmi2 = weight/Math.pow(height2,2);
+
+	    System.out.println("BMI値は"+(Math.floor(bmi*100)/100)+"です");
         }
 
     }
